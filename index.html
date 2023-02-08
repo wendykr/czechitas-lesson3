@@ -8,6 +8,39 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<h1>Očkování</h1>
+
+	<ul>
+		<li>Vytvořte webovou stránku, která se uživatele zeptá nejdříve na jméno a poté na věk. Tyto hodnoty si uložte do smysluplně pojmenovaných proměnných. Nezpomeňte věk převést na číslo.</li>
+		<li>Poté, co uživatel zadá všechny údaje, vypište do stránky výstup ve tvaru <br /><code>Květoslav Voňavý, věk: 67</code></li>
+	</ul>
+
+	<div>
+		<button class="button" onclick="vyplnitUdaje()">Vyplnit údaje</button>
+		<p class="vysledekOckovani"></p>
+	</div>
+
+	<h1>Výplata - pevná</h1>
+
+	<ul>
+		<li>Vytvořte webovou stránku, která uživatele požádá o jeho hodinovou sazbu v korunách a spočítá jeho hrubou mzdu za předpokladu, že pracuje <strong>8 hodin</strong> denně <strong>21 dní</strong> v měsíci.<br />Do stránky vypište výsledek zabalený do nějaké přívětivé formulace. Dbejte na to, abyste korektně převedli uživatelem zadanou hodnotu na číslo.</li>
+	</ul>
+
+	<div>
+		<button class="button" onclick="spocitatVyplatuPevna()">Spočítat výplatu</button>
+		<p class="vysledekVyplataPevna"></p>
+	</div>
+
+	<h1>Výplata - pružná</h1>
+
+	<ul>
+		<li>Nechte uživatele zadat nejen hodinovou sazbu, ale také počet hodin a dní v měsíci. Opět dejte pozor na správnou konverzi.</li>
+	</ul>
+
+	<div>
+		<button class="button" onclick="spocitatVyplatuPruzna()">Spočítat výplatu</button>
+		<p class="vysledekVyplataPruzna"></p>
+	</div>
 
 	<script src="main.js"></script>
 </body>
